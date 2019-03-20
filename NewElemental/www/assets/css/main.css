@@ -1,0 +1,121 @@
+
+/* Font Imports */
+
+@font-face{
+	
+	src: url("fonts/Roboto-Light.ttf");
+	
+	font-family: roboto;
+	
+}
+
+/* Id's */
+
+#player1Box{
+	
+	bottom: 0px;
+	
+	left: 0px;
+	
+	background: #aae0fa;
+	
+}
+
+#player2Box{
+	
+	top: 0px;
+	
+	left: 0px;
+	
+	background: #9bd3ae;
+	
+}
+
+#settingsButton{
+	
+	top: 50vh;
+	
+	left: 50vw;
+	
+	margin-left: -12.5px;
+	
+	margin-top: -12.5px;
+	
+}
+
+#playerDivider{
+	
+	position: absolute;
+	
+	height: 30px;
+	
+	width: 100vw;
+	
+	left: 0px;
+	
+	top: 50vh;
+	
+	margin-top: -15px;
+	
+	background: white;
+	
+}
+
+/* Classes */
+
+.box{
+	
+	position: absolute;
+	
+	width: 100vw;
+	
+	height: 50vh;
+	
+}
+
+/* Tags */
+
+body{
+	
+	display: none;
+	
+	margin: 0;
+	
+}
+
+button{
+	
+	position: absolute;
+	
+	font-size: 25px;
+	
+	background: rgb(0, 0, 0, 0);
+	
+	border: 0px solid black;
+	
+	padding: 0px;
+	
+}
+
+/* Other */
+
+*{
+	
+	font-family: roboto;
+	
+}
+
+/* Mobile view */
+
+@media only screen and (max-width: 600px){
+
+	/* Id's */
+	
+	/* Classes */
+	
+	/* Tags */
+	
+	/* Other */
+	
+}
+
