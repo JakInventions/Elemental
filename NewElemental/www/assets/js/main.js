@@ -1,4 +1,10 @@
 
+var settingsButtonRotation = 0;
+
+var restartButton1Rotation = 0;
+
+var restartButton2Rotation = 0;
+
 if(localStorage.getItem("player1Score") == null){
 	
 	localStorage.setItem("player1Score", "20");
@@ -22,8 +28,6 @@ function refreshScore(){
 window.addEventListener("load", function(){
 	
 	refreshScore();
-	
-	var settingsButtonRotation = 0;
 	
 	$(document).ready(function(){
 		
@@ -99,6 +103,30 @@ function subtractPlayer1(){
 function addPlayer1(){
 	
 	localStorage.setItem("player1Score", parseInt(localStorage.getItem("player1Score")) + 1);
+	
+	refreshScore();
+	
+}
+
+function restartPlayer1(ele){
+	
+	restartButton1Rotation -= 360;
+	
+	ele.setAttribute('style','transform:rotate(' + restartButton1Rotation + 'deg)');
+	
+	localStorage.setItem("player1Score", "20");
+	
+	refreshScore();
+	
+}
+
+function restartPlayer2(ele){
+	
+	restartButton2Rotation -= 360;
+	
+	ele.setAttribute('style','transform:rotate(' + restartButton2Rotation + 'deg)');
+	
+	localStorage.setItem("player2Score", "20");
 	
 	refreshScore();
 	
