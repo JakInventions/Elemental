@@ -25,17 +25,17 @@
 
 	<div id="player2Box" class="box">
 	
-		<div id="player2SettingsView" class="settingsView">
+		<div id="player2SettingsView" class="settingsView upsideDown">
 			
 			
 			
 		</div>
 		
-		<p class="upsideDown">1</p>
+		<p class="upsideDown" id="player2Score"></p>
 		
-		<button class="player2Button rightButton"><i class="fa fa-minus"></i></button>
+		<button onclick="subtractPlayer2();" class="player2Button rightButton"><i class="fa fa-minus"></i></button>
 		
-		<button class="player2Button leftButton"><i class="fa fa-plus"></i></button>
+		<button onclick="addPlayer2();" class="player2Button leftButton"><i class="fa fa-plus"></i></button>
 		
 	</div>
 	
@@ -47,11 +47,11 @@
 			
 		</div>
 		
-		<p>1</p>
+		<p id="player1Score"></p>
 		
-		<button class="player1Button leftButton"><i class="fa fa-minus"></i></button>
+		<button onclick="subtractPlayer1();" class="player1Button leftButton"><i class="fa fa-minus"></i></button>
 		
-		<button class="player1Button rightButton"><i class="fa fa-plus"></i></button>
+		<button onclick="addPlayer1();" class="player1Button rightButton"><i class="fa fa-plus"></i></button>
 		
 	</div>
 	

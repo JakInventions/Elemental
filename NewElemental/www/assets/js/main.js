@@ -1,5 +1,27 @@
 
+if(localStorage.getItem("player1Score") == null){
+	
+	localStorage.setItem("player1Score", "20");
+	
+}
+
+if(localStorage.getItem("player2Score") == null){
+	
+	localStorage.setItem("player2Score", "20");
+	
+}
+
+function refreshScore(){
+	
+	document.getElementById("player1Score").innerHTML = localStorage.getItem("player1Score");
+	
+	document.getElementById("player2Score").innerHTML = localStorage.getItem("player2Score");
+	
+}
+
 window.addEventListener("load", function(){
+	
+	refreshScore();
 	
 	var settingsButtonRotation = 0;
 	
@@ -49,4 +71,36 @@ window.addEventListener("load", function(){
 	});
 	
 });
+
+function subtractPlayer2(){
+	
+	localStorage.setItem("player2Score", parseInt(localStorage.getItem("player2Score")) - 1);
+	
+	refreshScore();
+	
+}
+
+function addPlayer2(){
+	
+	localStorage.setItem("player2Score", parseInt(localStorage.getItem("player2Score")) + 1);
+	
+	refreshScore();
+	
+}
+
+function subtractPlayer1(){
+	
+	localStorage.setItem("player1Score", parseInt(localStorage.getItem("player1Score")) - 1);
+	
+	refreshScore();
+	
+}
+
+function addPlayer1(){
+	
+	localStorage.setItem("player1Score", parseInt(localStorage.getItem("player1Score")) + 1);
+	
+	refreshScore();
+	
+}
 
