@@ -113,12 +113,6 @@
 	
 }
 
-.box button:active{
-	
-	font-size: 50px;
-	
-}
-
 .settingsView{
 	
 	position: absolute;
@@ -151,8 +145,6 @@
 	
 }
 
-.leftButton:active{margin-left: -25px;}
-
 .rightButton{
 	
 	position: absolute;
@@ -163,8 +155,6 @@
 	
 }
 
-.rightButton:active{margin-right: -25px;}
-
 .player1Button{
 	
 	bottom: 25vh;
@@ -173,8 +163,6 @@
 	
 }
 
-.player1Button:active{margin-bottom: -25px;}
-
 .player2Button{
 	
 	top: 25vh;
@@ -182,8 +170,6 @@
 	margin-top: -15px;
 	
 }
-
-.player2Button:active{margin-top: -25px;}
 
 /* Tags */
 
