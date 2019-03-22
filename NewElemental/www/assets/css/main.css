@@ -85,6 +85,8 @@
 	
 	height: 50vh;
 	
+	color: white;
+	
 }
 
 .box p{
@@ -99,7 +101,19 @@
 	
 	text-align: center;
 	
+	font-size: 50px
+	
+}
+
+.box button{
+	
 	color: white;
+	
+	transition: 0.25s;
+	
+}
+
+.box button:active{
 	
 	font-size: 50px;
 	
@@ -126,6 +140,50 @@
 	transform: rotate(180deg);
 	
 }
+
+.leftButton{
+	
+	position: absolute;
+	
+	left: 25vw;
+	
+	margin-left: -15px;
+	
+}
+
+.leftButton:active{margin-left: -25px;}
+
+.rightButton{
+	
+	position: absolute;
+	
+	right: 25vw;
+	
+	margin-right: -15px;
+	
+}
+
+.rightButton:active{margin-right: -25px;}
+
+.player1Button{
+	
+	bottom: 25vh;
+	
+	margin-bottom: -15px;
+	
+}
+
+.player1Button:active{margin-bottom: -25px;}
+
+.player2Button{
+	
+	top: 25vh;
+	
+	margin-top: -15px;
+	
+}
+
+.player2Button:active{margin-top: -25px;}
 
 /* Tags */
 
