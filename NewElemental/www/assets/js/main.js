@@ -29,7 +29,20 @@ window.addEventListener("load", function(){
 				
 			}
 			
-			$(".settingsView").slideToggle(500);
+			slideSettings = false;
+			
+			for(var i = 0; i < document.getElementsByClassName("settingsView").length; i++){
+				
+				if(document.getElementsByClassName("settingsView")[i].offsetHeight == "60" || document.getElementsByClassName("settingsView")[i].offsetHeight == "0"){
+					
+					slideSettings = true;
+					
+				}
+				
+				
+			}
+			
+			if(slideSettings)$(".settingsView").slideToggle(500);
 			
 		});
 		
