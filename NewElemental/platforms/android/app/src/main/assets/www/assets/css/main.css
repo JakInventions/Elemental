@@ -17,8 +17,6 @@
 	
 	left: 0px;
 	
-	background: #aae0fa;
-	
 	background-image: linear-gradient(to bottom right, #aae0fa, #175377);
 	
 }
@@ -29,9 +27,7 @@
 	
 	left: 0px;
 	
-	background: #9bd3ae;
-	
-	background-image: linear-gradient(to bottom right, #a3c095, #63afab);
+	background-image: linear-gradient(to bottom right, #63afab, #a3c095);
 	
 }
 
@@ -77,6 +73,24 @@
 	
 }
 
+.box p{
+	
+	position: absolute;
+	
+	width: 100vw;
+	
+	top: 50%;
+	
+	margin-top: -25px;
+	
+	text-align: center;
+	
+	color: white;
+	
+	font-size: 50px;
+	
+}
+
 /* Tags */
 
 body{
@@ -101,6 +115,12 @@ button{
 	
 	padding: 0px;
 	
+}
+
+button::-moz-focus-inner {
+  
+	border: 0;
+  
 }
 
 /* Other */
