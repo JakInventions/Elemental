@@ -1,4 +1,4 @@
-#Thu Mar 21 22:15:22 EDT 2019
+#Fri Mar 22 18:56:41 EDT 2019
 base.0=C\:\\Users\\Jak\\Desktop\\githubStuff\\Elemental\\NewElemental\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

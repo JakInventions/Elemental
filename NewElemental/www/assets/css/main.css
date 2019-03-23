@@ -19,6 +19,12 @@
 	
 	background-image: linear-gradient(to bottom right, #aae0fa, #175377);
 	
+	/*Black gradient background-image: linear-gradient(to right, #414850, #252e37);*/
+	
+	/*Plains gradient background-image: linear-gradient(to bottom right, #fffbd5, #9c835b);*/
+	
+	/*Fire gradient background-image: linear-gradient(to bottom right, #f9aa8f, #a72618);*/
+	
 }
 
 #player2Box{
@@ -129,7 +135,7 @@
 	
 }
 
-.settingsView button{
+.restartButton{
 	
 	left: 50vw;
 	
@@ -180,6 +186,24 @@
 	top: 25vh;
 	
 	margin-top: -15px;
+	
+}
+
+.typeIcon{
+	
+	position: static;
+	
+	float: right;
+	
+	margin-top: 5px;
+	
+	margin-right: 5px;
+	
+}
+
+.typeIcon:active{
+	
+	opacity: 0.5;
 	
 }
 
