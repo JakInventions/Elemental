@@ -132,3 +132,13 @@ function restartPlayer2(ele){
 	
 }
 
+function setPlayerColor(player, color){
+	
+	if(color == "green") document.getElementById(player + "Box").style.background = "linear-gradient(to bottom right, #63afab, #a3c095)";
+	else if(color == "red") document.getElementById(player + "Box").style.background = "linear-gradient(to bottom right, #f9aa8f, #a72618)";
+	else if(color == "black") document.getElementById(player + "Box").style.background = "linear-gradient(to right, #414850, #252e37)";
+	else if(color == "blue") document.getElementById(player + "Box").style.background = "linear-gradient(to bottom right, #aae0fa, #175377)";
+	else if(color == "white") document.getElementById(player + "Box").style.background = "linear-gradient(to bottom right, #fffbd5, #9c835b)";
+	
+}
+

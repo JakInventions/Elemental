@@ -17,7 +17,7 @@
 	
 	left: 0px;
 	
-	background-image: linear-gradient(to bottom right, #aae0fa, #175377);
+	background: linear-gradient(to bottom right, #aae0fa, #175377);
 	
 	/*Black gradient background-image: linear-gradient(to right, #414850, #252e37);*/
 	
@@ -33,7 +33,7 @@
 	
 	left: 0px;
 	
-	background-image: linear-gradient(to bottom right, #63afab, #a3c095);
+	background: linear-gradient(to bottom right, #63afab, #a3c095);
 	
 }
 
@@ -92,6 +92,8 @@
 	height: 50vh;
 	
 	color: white;
+	
+	transition: 0.5s;
 	
 }
 
@@ -199,11 +201,49 @@
 	
 	margin-right: 5px;
 	
+	width: 50px;
+	
+	height: 50px;
+	
+	border-radius: 50px;
+	
+	border: 2px solid white;
+	
 }
 
 .typeIcon:active{
 	
 	opacity: 0.5;
+	
+}
+
+.planesIcon{
+	
+	background: #fcfcc1;
+	
+}
+
+.waterIcon{
+	
+	background: #67c1f5;
+	
+}
+
+.blackIcon{
+	
+	background: #848484;
+	
+}
+
+.fireIcon{
+	
+	background: #f85555;
+	
+}
+
+.greenIcon{
+	
+	background: #26b569;
 	
 }
 
