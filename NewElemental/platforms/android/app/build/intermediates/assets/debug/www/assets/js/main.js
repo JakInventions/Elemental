@@ -5,6 +5,23 @@ var restartButton1Rotation = 0;
 
 var restartButton2Rotation = 0;
 
+document.addEventListener('deviceready', function(){
+	
+	screen.orientation.lock('portrait');
+	
+	window.addEventListener("orientationchange", function(){
+		
+		if(window.matchMedia("(max-width: 600px)").matches){
+			
+			screen.orientation.lock('portrait');
+			
+		}
+		
+	});
+	
+
+}, false);
+
 if(localStorage.getItem("player1Score") == null){
 	
 	localStorage.setItem("player1Score", "20");

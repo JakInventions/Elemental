@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Jak\\Desktop\\githubStuff\\Elemental\\NewElemental\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
-        "source": "C:\\Users\\Jak\\Desktop\\githubStuff\\Elemental\\NewElemental\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
-    },
-    {
         "merged": "C:\\Users\\techn\\Desktop\\githubStuff\\Elemental\\NewElemental\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
         "source": "C:\\Users\\techn\\Desktop\\githubStuff\\Elemental\\NewElemental\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Jak\\Desktop\\githubStuff\\Elemental\\NewElemental\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Jak\\Desktop\\githubStuff\\Elemental\\NewElemental\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
     },
     {
         "merged": "C:\\Users\\techn\\Desktop\\githubStuff\\Elemental\\NewElemental\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
