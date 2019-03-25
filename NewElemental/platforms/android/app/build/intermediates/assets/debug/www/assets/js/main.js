@@ -17,6 +17,18 @@ if(localStorage.getItem("player2Score") == null){
 	
 }
 
+if(localStorage.getItem("player1Color") == null){
+	
+	localStorage.setItem("player1Color", "blue");
+	
+}
+
+if(localStorage.getItem("player2Color") == null){
+	
+	localStorage.setItem("player2Color", "green");
+	
+}
+
 function refreshScore(){
 	
 	document.getElementById("player1Score").innerHTML = localStorage.getItem("player1Score");
@@ -28,6 +40,10 @@ function refreshScore(){
 window.addEventListener("load", function(){
 	
 	refreshScore();
+	
+	setPlayerColor("player1", localStorage.getItem("player1Color"));
+	
+	setPlayerColor("player2", localStorage.getItem("player2Color"));
 	
 	$(document).ready(function(){
 		
@@ -139,6 +155,8 @@ function setPlayerColor(player, color){
 	else if(color == "black") document.getElementById(player + "Box").style.background = "linear-gradient(to right, #414850, #252e37)";
 	else if(color == "blue") document.getElementById(player + "Box").style.background = "linear-gradient(to bottom right, #aae0fa, #175377)";
 	else if(color == "white") document.getElementById(player + "Box").style.background = "linear-gradient(to bottom right, #fffbd5, #9c835b)";
+	
+	localStorage.setItem(player + "Color", color);
 	
 }
 
