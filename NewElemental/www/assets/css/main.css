@@ -299,7 +299,25 @@ button::-moz-focus-inner {
 	
 	.typeIcon{
 		
-		width: 30px;
+		width: 25px;
+		
+	}
+	
+	/* Tags */
+	
+	/* Other */
+	
+}
+
+@media only screen and (max-width: 340px){
+	
+	/* Id's */
+	
+	/* Classes */
+	
+	.typeIcon{
+		
+		width: 20px;
 		
 	}
 	
